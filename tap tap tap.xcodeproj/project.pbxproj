@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8BD45512375E5750026AF5B /* TapArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD45502375E5750026AF5B /* TapArchive.swift */; };
 		C8FC61DB2373480A005BC095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC61DA2373480A005BC095 /* AppDelegate.swift */; };
 		C8FC61DD2373480A005BC095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC61DC2373480A005BC095 /* ViewController.swift */; };
 		C8FC61E02373480A005BC095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FC61DE2373480A005BC095 /* Main.storyboard */; };
 		C8FC61E22373480B005BC095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FC61E12373480B005BC095 /* Assets.xcassets */; };
 		C8FC61E52373480B005BC095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FC61E32373480B005BC095 /* LaunchScreen.storyboard */; };
+		C8FC61ED2373483C005BC095 /* WhiteBoardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC61EC2373483C005BC095 /* WhiteBoardUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8BD45502375E5750026AF5B /* TapArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapArchive.swift; sourceTree = "<group>"; };
 		C8FC61D72373480A005BC095 /* tap tap tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tap tap tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FC61DA2373480A005BC095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8FC61DC2373480A005BC095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C8FC61E12373480B005BC095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8FC61E42373480B005BC095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8FC61E62373480B005BC095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8FC61EC2373483C005BC095 /* WhiteBoardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBoardUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		C8FC61D92373480A005BC095 /* tap tap tap */ = {
 			isa = PBXGroup;
 			children = (
+				C8FC61EC2373483C005BC095 /* WhiteBoardUIView.swift */,
 				C8FC61DA2373480A005BC095 /* AppDelegate.swift */,
 				C8FC61DC2373480A005BC095 /* ViewController.swift */,
 				C8FC61DE2373480A005BC095 /* Main.storyboard */,
 				C8FC61E12373480B005BC095 /* Assets.xcassets */,
 				C8FC61E32373480B005BC095 /* LaunchScreen.storyboard */,
 				C8FC61E62373480B005BC095 /* Info.plist */,
+				C8BD45502375E5750026AF5B /* TapArchive.swift */,
 			);
 			path = "tap tap tap";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FC61ED2373483C005BC095 /* WhiteBoardUIView.swift in Sources */,
 				C8FC61DD2373480A005BC095 /* ViewController.swift in Sources */,
+				C8BD45512375E5750026AF5B /* TapArchive.swift in Sources */,
 				C8FC61DB2373480A005BC095 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
